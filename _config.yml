@@ -5,8 +5,8 @@ description: "Assignments and projects organized by grade and subject"
 baseurl: "" # keep empty if hosted at https://jas0nmc.github.io
 url: "https://jas0nmc.github.io"
 
-# Theme
-theme: minimal-mistakes-jekyll
+# Use remote theme so GitHub Pages finds Minimal Mistakes
+remote_theme: mmistakes/minimal-mistakes@4.32.0
 
 # Build settings
 sass:
@@ -22,6 +22,3 @@ defaults:
       type: "posts"
     values:
       layout: single
-
-# Optional: Navigation (can also be in _data/navigation.yml)
-# We are keeping navigation in _data/navigation.yml for clarity
