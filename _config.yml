@@ -1,20 +1,24 @@
+# Site settings
 title: "My Portfolio"
 email: ""
 description: "Assignments and projects organized by grade and subject"
-baseurl: "" 
+baseurl: "" # leave empty if hosted at https://jas0nmc.github.io
 url: "https://jas0nmc.github.io"
 
-theme: jekyll-theme-primer
+# Use Slate theme
+theme: jekyll-theme-slate
 
+# Build settings
 sass:
   style: compressed
 
 plugins:
   - jekyll-feed
 
+# Defaults for posts
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: single
+      layout: default
