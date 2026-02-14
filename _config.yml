@@ -1,46 +1,22 @@
-title: Jason Mc
-description: school assignments and essays
-remote_theme: mmistakes/minimal-mistakes
+# _config.yml
+title: "My Portfolio"
+email: ""
+description: "Assignments and projects organized by grade and subject"
+baseurl: "" # keep empty if hosted at https://jas0nmc.github.io
+url: "https://jas0nmc.github.io"
+
+theme: minimal-mistakes-jekyll
+
+# SCSS processing
+sass:
+  style: compressed
+
 plugins:
-  - jekyll-include-cache
-
-author:
-  name: Jason 
-
-minimal_mistakes_skin: default
-
-# remove extra clutter
-breadcrumbs: false
-search: false
+  - jekyll-feed
 
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
       layout: single
-      classes: wide
-      show_date: true
-      
-collections:
-  8th:
-    output: true
-
-header_pages:
-  - _8th/index.md
-  
-navigation: main
-
-# layout settings
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      sidebar:
-        enabled: true
-      
-navigation: main
-remote_theme: mmistakes/minimal-mistakes
-
