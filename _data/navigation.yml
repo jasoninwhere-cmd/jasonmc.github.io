@@ -1,20 +1,23 @@
 main:
-  - title: "8th Grade"
-    url: /8th/
+  - title: "Grades"
+    url: "#"
     children:
-      - title: "English"
-        url: /8th/english/
-      - title: "Math"
-        url: /8th/math/
-      - title: "Science"
-        url: /8th/science/
-  - title: "9th Grade"
-    url: /9th/
-    children:
-      - title: "English"
-        url: /9th/english/
-  - title: "10th Grade"
-    url: /10th/
-    children:
-      - title: "English"
-        url: /10th/english/
+      - title: "8th Grade"
+        url: /8th/
+        children:
+          - title: "English"
+            url: /8th/english/
+          - title: "Math"
+            url: /8th/math/
+          - title: "Science"
+            url: /8th/science/
+      - title: "9th Grade"
+        url: /9th/
+        children:
+          - title: "English"
+            url: /9th/english/
+      - title: "10th Grade"
+        url: /10th/
+        children:
+          - title: "English"
+            url: /10th/english/
