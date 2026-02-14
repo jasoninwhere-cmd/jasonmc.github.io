@@ -2,42 +2,45 @@
 # Custom CSS: left-align top menu, hover dropdowns, and small decorations
 ---
 
-/* Left-align top menu */
-nav.navbar {
+/* Top menu left-aligned */
+.header-nav {
   justify-content: flex-start !important;
+  margin-left: 0 !important;
 }
 
-/* Show dropdowns on hover */
-nav.navbar .dropdown:hover > .dropdown-menu {
+/* Dropdown menus appear on hover */
+.header-nav .dropdown:hover > .dropdown-menu {
   display: block !important;
   opacity: 1 !important;
   transform: none !important;
 }
-nav.navbar .dropdown .dropdown-menu {
+
+.header-nav .dropdown .dropdown-menu {
   display: none;
 }
 
-/* Dropdown menu style */
-nav.navbar .dropdown-menu {
+/* Dropdown menu styling */
+.header-nav .dropdown-menu {
   background-color: #f7fbff;
   border-radius: 6px;
   box-shadow: 0 6px 18px rgba(12, 40, 70, 0.12);
   padding: 6px 0;
 }
 
-nav.navbar .dropdown-menu a.dropdown-item:hover {
+.header-nav .dropdown-menu a.dropdown-item:hover {
   background-color: #e6f3ff;
   color: #000;
 }
 
-/* Menu item styling */
-nav.navbar > ul > li > a, nav.navbar > ul > li > .dropdown-toggle {
+/* Menu link styling */
+.header-nav > li > a,
+.header-nav > li > .dropdown-toggle {
   padding: 10px 14px;
   font-weight: 600;
   color: #0b5ed7;
 }
 
-/* Hero section styling */
+/* Home hero block */
 .home-hero {
   background-color: #f0f8ff;
   padding: 36px;
@@ -55,7 +58,7 @@ nav.navbar > ul > li > a, nav.navbar > ul > li > .dropdown-toggle {
   margin-bottom: 12px;
 }
 
-/* Quick links blocks */
+/* Quick links block */
 .quick-links {
   background: #fff;
   border-left: 5px solid #198754;
@@ -63,12 +66,15 @@ nav.navbar > ul > li > a, nav.navbar > ul > li > .dropdown-toggle {
   border-radius: 6px;
 }
 
-/* Mobile responsiveness */
+/* Responsive adjustments */
 @media (max-width: 840px) {
-  nav.navbar {
-    justify-content: center !important;
-  }
   .page-with-sidebar {
     display: block !important;
+  }
+
+  .page-sidebar {
+    width: 100% !important;
+    border-right: none !important;
+    margin-bottom: 15px;
   }
 }
