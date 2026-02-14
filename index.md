@@ -34,9 +34,9 @@ layout: single
 
 ## Welcome to My School Portfolio
 
-Use the sidebar to navigate grades and subjects.  
+Use the sidebar or top menu to navigate grades and subjects.  
 
-You can also add announcements or featured assignments here.
+You can add announcements, featured assignments, or any welcome text here.
 
 </div>
 </div>
