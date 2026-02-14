@@ -1,6 +1,9 @@
 ---
 title: "8th Grade English"
 permalink: /8th/english/
+layout: single
+sidebar:
+  include: sidebar-grades.html
 ---
 
 ## Assignments
