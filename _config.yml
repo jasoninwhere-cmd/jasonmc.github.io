@@ -1,13 +1,17 @@
-title: your name
+title: Jason Mc
 description: school assignments and essays
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-include-cache
 
 author:
-  name: your name
+  name: Jason Mc
 
 minimal_mistakes_skin: default
+
+# remove extra clutter
+breadcrumbs: false
+search: false
 
 defaults:
   - scope:
@@ -16,3 +20,4 @@ defaults:
     values:
       layout: single
       classes: wide
+      show_date: true
