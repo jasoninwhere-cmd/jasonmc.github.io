@@ -1,5 +1,8 @@
 ---
-Title: "What I Did on Summer Vacation"
+title: "What I Did on Summer Vacation"
+assignment_number: 1
+subject: english
+grade: 8
 ---
 
 ## English Writing Assignment 1
