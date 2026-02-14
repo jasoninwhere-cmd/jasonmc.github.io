@@ -5,7 +5,6 @@ subject: english
 grade: 8
 ---
 
-## English Writing Assignment 1
 
 This summer was all about swimming and relaxing. I didn’t go anywhere exciting, but I spent a lot of time swimming. It was the best way to cool off and also something that I never got bored with.
 
