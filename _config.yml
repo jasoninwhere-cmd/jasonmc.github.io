@@ -25,3 +25,6 @@ defaults:
 collections:
   8th:
     output: true
+
+header_pages:
+  - _8th/index.md
