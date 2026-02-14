@@ -28,3 +28,5 @@ collections:
 
 header_pages:
   - _8th/index.md
+  
+navigation: main
