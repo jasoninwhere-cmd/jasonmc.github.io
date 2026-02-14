@@ -2,11 +2,11 @@
 title: "My Portfolio"
 email: ""
 description: "Assignments and projects organized by grade and subject"
-baseurl: "" # leave empty if hosted at https://jas0nmc.github.io
+baseurl: "" # keep empty if hosted at https://jas0nmc.github.io
 url: "https://jas0nmc.github.io"
 
-# Theme
-theme: slate
+# GitHub Pages supported theme
+theme: jekyll-theme-cayman
 
 # Build settings
 sass:
