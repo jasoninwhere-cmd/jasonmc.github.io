@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jason's RPC</title>
+  <style>
+    body { margin: 0; background: #d7d7d9; color: #111b33; font-family: Georgia, "Times New Roman", serif; }
+    .rpc-page { width: min(980px, 90vw); margin: 0 auto; padding-top: 14px; }
+    .rpc-topbar { display: flex; align-items: center; justify-content: space-between; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; margin-bottom: 72px; }
+    .rpc-brand { display: flex; align-items: center; gap: 12px; color: #0c1630; }
+    .rpc-logo { width: 35px; height: 24px; display: inline-block; background: linear-gradient(145deg, #c5c000 0 52%, #101010 52% 100%); }
+    .rpc-nav { display: flex; gap: clamp(20px, 4vw, 70px); }
+    .rpc-nav-link { color: #111a31; text-decoration: none; }
+    .rpc-hero { text-align: center; margin-bottom: 54px; }
+    .rpc-hero h1, .rpc-about h2 { font-size: clamp(40px, 3vw, 52px); font-weight: 500; margin-bottom: 14px; }
+    .rpc-hero p, .rpc-about p, .rpc-grid p, .rpc-ethics p { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px; letter-spacing: 0.3px; line-height: 1.45; color: #1f2e4a; }
+    .rpc-button { margin-top: 14px; display: inline-block; background: #121217; color: #fff; text-decoration: none; padding: 8px 13px; border-radius: 4px; font-size: 10px; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; }
+    .rpc-image { display: flex; justify-content: center; margin-bottom: 140px; }
+    .rpc-city-art { width: min(640px, 90vw); aspect-ratio: 16/9; border-radius: 16px; background: radial-gradient(circle at 50% 40%, rgba(242, 207, 111, 0.95) 0 10%, rgba(150, 101, 46, 0.7) 12%, transparent 21%), linear-gradient(180deg, rgba(30, 20, 20, 0.45) 0, rgba(30, 20, 20, 0.2) 100%), repeating-linear-gradient(90deg, #7f4f2b 0 4%, #2a1a14 4% 6%, #8f5a2d 6% 11%), linear-gradient(165deg, #261710, #b97939 62%, #51301f); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.22); }
+    .rpc-about { text-align: center; margin-bottom: 110px; }
+    .rpc-star { font-size: 40px; line-height: 1; color: #222; margin-bottom: 8px; }
+    .rpc-grid { margin-top: 48px; display: grid; grid-template-columns: repeat(3, minmax(160px, 1fr)); gap: 36px; text-align: left; }
+    .rpc-grid h3, .rpc-ethics h3 { font-family: "Helvetica Neue", Arial, sans-serif; margin: 4px 0 6px; font-size: 14px; color: #111; }
+    .rpc-grid .rpc-star, .rpc-ethics .rpc-star { margin: 0; font-size: 34px; }
+    .rpc-ethics { margin: 26px auto 0; width: min(300px, 100%); text-align: center; }
+    .rpc-quote { background: #12141b; color: #f8ead5; text-align: center; padding: 96px 20px; margin: 0 calc(50% - 50vw); }
+    .rpc-quote blockquote { margin: 0; font-style: italic; font-size: clamp(24px, 2.2vw, 42px); line-height: 1.25; }
+    @media (max-width: 760px) {
+      .rpc-topbar { flex-direction: column; gap: 14px; margin-bottom: 50px; }
+      .rpc-nav { flex-wrap: wrap; justify-content: center; }
+      .rpc-grid { grid-template-columns: 1fr; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="rpc-page">
+    <header class="rpc-topbar">
+      <div class="rpc-brand"><span class="rpc-logo" aria-hidden="true"></span><span>Jason's RPC</span></div>
+      <nav class="rpc-nav" aria-label="Primary">
+        <a href="#" class="rpc-nav-link">Grade 9 <span>⌄</span></a>
+        <a href="#" class="rpc-nav-link">Grade 10</a>
+        <a href="#" class="rpc-nav-link">Grade 11</a>
+        <a href="#" class="rpc-nav-link">Grade 12</a>
+      </nav>
+    </header>
+    <section class="rpc-hero">
+      <h1>Welcome!</h1>
+      <p>I hope you enjoy reading my essays and literature whoever stumbles<br>upon this</p>
+      <a href="#about" class="rpc-button">ABOUT ME</a>
+    </section>
+    <section class="rpc-image" aria-label="Feature artwork"><div class="rpc-city-art" role="img" aria-label="Art deco style city skyline"></div></section>
+    <section class="rpc-about" id="about">
+      <div class="rpc-star">*</div>
+      <h2>About Me</h2>
+      <p>Hello, my name is Jason. I created this blog for a school project, but also as a<br>space to share my perspectives on a variety of topics that interest me.</p>
+      <p>Here are topics you can expect from me outside of school...</p>
+      <div class="rpc-grid">
+        <article><div class="rpc-star">*</div><h3>Philosophy</h3><p>Experience the fusion of imagination and expertise with Architectural Solutions.</p></article>
+        <article><div class="rpc-star">*</div><h3>History</h3><p>Experience the fusion of imagination and expertise with Etudes Architectural Solutions.</p></article>
+        <article><div class="rpc-star">*</div><h3>Economics</h3><p>Experience the fusion of imagination and expertise with Etudes Architectural Solutions.</p></article>
+      </div>
+      <article class="rpc-ethics"><div class="rpc-star">*</div><h3>Ethics</h3><p>Experience the fusion of imagination and expertise with Etudes Architectural Solutions.</p></article>
+    </section>
+  </div>
+  <footer class="rpc-quote"><blockquote>“A society that gives up freedom for<br>safety will lose both.”</blockquote></footer>
+</body>
+</html>
